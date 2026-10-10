@@ -16,11 +16,11 @@
 
 Applied AI Engineer based in Paris, building production AI systems end to end — from LLM orchestration and retrieval pipelines to the interfaces people actually use.
 
-- 🛡️ Author of **[Custos](https://github.com/Taki-chiasf/Custos)** — an open-source PyPI library that enforces permissions on AI agent tool calls across 7 frameworks, with prompt-injection defense and tamper-evident audit logs.
-- 🔍 Built a Mistral-native **[RAG + text-to-SQL onboarding assistant](https://github.com/Taki-chiasf/Onboarding-assistant)** with hybrid search (recall@5 of 0.91), ACL-aware retrieval, and a 232-question evaluation harness.
-- 🏢 Shipped an internal IT helpdesk platform for **300+ employees** at Algerie Telecom, cutting issue resolution time by ~40%.
-- 🎓 CS student at CY Cergy Paris University — open to an **AI engineering internship in Paris starting April 2027**.
-- 🌍 Arabic (native) · French (fluent) · English (professional)
+- Author of **[Custos](https://github.com/Taki-chiasf/Custos)** — an open-source PyPI library that enforces permissions on AI agent tool calls across 7 frameworks, with prompt-injection defense and tamper-evident audit logs.
+- Built a Mistral-native **[RAG + text-to-SQL onboarding assistant](https://github.com/Taki-chiasf/Onboarding-assistant)** with hybrid search (recall@5 of 0.91), ACL-aware retrieval, and a 232-question evaluation harness.
+- Shipped an internal IT helpdesk platform for **300+ employees** at Algerie Telecom, cutting issue resolution time by ~40%.
+- CS student at CY Cergy Paris University — open to an **AI engineering internship in Paris starting April 2027**.
+- Arabic (native) · French (fluent) · English (professional)
 
 ---
 
@@ -100,14 +100,14 @@ Applied AI Engineer based in Paris, building production AI systems end to end �
   <a href="https://github.com/Taki-chiasf/Onboarding-assistant"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Taki-chiasf&repo=Onboarding-assistant&theme=radical&bg_color=0a0c10&title_color=a78bfa&icon_color=a78bfa&text_color=94a3b8&border_color=a78bfa" alt="Onboarding Assistant"/></a>
 </p>
 
-### 🛡️ [Custos](https://github.com/Taki-chiasf/Custos) — AI Agent Permission Middleware
+### [Custos](https://github.com/Taki-chiasf/Custos) — AI Agent Permission Middleware
 
 - Open-source security library for AI agents (Python, on PyPI) that **blocks any action not explicitly allowed**, checking every tool call against YAML permission rules across 7 decision types.
 - Plugs into 7 popular AI frameworks (LangChain, OpenAI, Anthropic, MCP, and more) with **zero changes to existing tool code** — ready-made adapters, a TypeScript SDK, and a secure gateway service.
 - Blocks **indirect prompt-injection attacks** with a detector that stops the dangerous call and clears the agent's memory of the attack.
 - Proven with **600+ automated Python/TS tests** and a 125-case attack simulation suite; every permission decision is stored in **tamper-evident logs**.
 
-### 🔍 [Onboarding Assistant](https://github.com/Taki-chiasf/Onboarding-assistant) — RAG + Text-to-SQL
+### [Onboarding Assistant](https://github.com/Taki-chiasf/Onboarding-assistant) — RAG + Text-to-SQL
 
 - AI chat assistant (FastAPI, Next.js, Mistral) that answers new employees' questions from **company documents and live databases** — every answer cites its sources, and each user only sees data they are allowed to see.
 - **recall@5 of 0.91** by combining three search methods — semantic, keyword, and typo-tolerant (pgvector + full-text + trigram, RRF fusion, ACL filtering).
